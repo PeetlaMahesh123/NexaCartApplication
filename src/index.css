@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2563EB;
+  --color-secondary: #06B6D4;
+  --color-accent: #10B981;
+  --color-background: #0F172A;
+  --color-card: #1E293B;
+  --color-card-foreground: #F8FAFC;
+  --color-muted: #94A3B8; /* Updated to match --text-dim */
+  --color-border: rgba(255, 255, 255, 0.08); /* Updated to match --border */
+  --color-error: #EF4444;
+  --color-success: #22C55E;
+
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: "Inter", sans-serif; /* Unified for Sleek look */
+}
+
+@layer base {
+  body {
+    @apply bg-background text-slate-100 font-sans antialiased;
+  }
+}
+
+.sleek-sidebar {
+  @apply w-[240px] bg-card border-r border-border flex flex-col p-6;
+}
+
+.sleek-logo-icon {
+  @apply w-8 h-8 bg-linear-to-br from-primary to-secondary rounded-lg;
+}
+
+.sleek-nav-item {
+  @apply px-4 py-3 rounded-xl text-muted font-medium text-sm flex items-center gap-3 cursor-pointer mb-1 transition-all duration-200;
+}
+
+.sleek-nav-item.active {
+  @apply bg-primary/10 text-primary;
+}
+
+.sleek-stat-card {
+  @apply bg-card border border-border rounded-2xl p-5;
+}
+
+.sleek-container {
+  @apply bg-card border border-border rounded-[20px] p-6;
+}
+
+.sleek-badge {
+  @apply px-2 py-1 rounded-md text-[10px] font-bold uppercase;
+}
+
+.sleek-badge-success {
+  @apply bg-accent/10 text-accent;
+}
+
+.sleek-badge-pending {
+  @apply bg-amber-500/10 text-amber-500;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-400;
+}
+
+.gradient-button {
+  @apply bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-medium transition-all duration-300;
+}
+
+.glass {
+  @apply bg-slate-900/50 backdrop-blur-md border border-white/5;
+}
+
+.glass-card {
+  @apply bg-card border border-border rounded-2xl;
+}
