@@ -10,6 +10,11 @@ A modern e-commerce application built with React, TypeScript, and Supabase, feat
 - **Order Management**: View and manage customer orders
 - **User Management**: Admin role-based access control
 
+### User Features
+- **Product Catalog**: Browse products by category
+- **Shopping Cart**: Add/remove items, update quantities
+- **Secure Checkout**: Razorpay payment integration
+- **Order Tracking**: View order history and status
 
 
 ## Tech Stack
