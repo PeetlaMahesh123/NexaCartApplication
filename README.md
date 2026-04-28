@@ -16,6 +16,7 @@ A modern e-commerce application built with React, TypeScript, and Supabase, feat
 - **Secure Checkout**: Razorpay payment integration
 - **Order Tracking**: View order history and status
 
+
 ## Tech Stack
 
 - **Frontend**: React 19, TypeScript, TailwindCSS
