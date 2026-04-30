@@ -1,6 +1,6 @@
 # NexaCart - E-commerce Application with Admin Panel
 
-A modern e-commerce application built with React, TypeScript, and Supabase, featuring admin product management and Razorpay payment integration.
+
 
 ## Features
 
