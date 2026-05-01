@@ -2,7 +2,9 @@
 
 A modern e-commerce application built with React, TypeScript, and Supabase, featuring admin product management and Razorpay payment integration.
 
-
+## Features
+### Admin Features
+- **Product Management**: Add, edit, delete products
 
 
 - **Inventory Control**: Update stock levels and prices
