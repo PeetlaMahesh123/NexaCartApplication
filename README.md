@@ -4,7 +4,7 @@ A modern e-commerce application built with React, TypeScript, and Supabase, feat
 
 ## Features
 ### Admin Features
-- **Product Management**: Add, edit, delete products
+
 
 
 - **Inventory Control**: Update stock levels and prices
