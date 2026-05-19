@@ -34,7 +34,10 @@ A modern e-commerce application built with React, TypeScript, and Supabase, feat
 
 ## Setup Instructions
 
-
+### 1. Install Dependencies
+```bash
+npm install
+```
 
 ### 2. Environment Configuration
 Copy the environment file and configure your keys:
