@@ -28,9 +28,7 @@ A modern e-commerce application built with React, TypeScript, and Supabase, feat
 
 ## Prerequisites
 
-- Node.js 18+
-- Supabase account
-- Razorpay account (for payments)
+
 
 ## Setup Instructions
 
