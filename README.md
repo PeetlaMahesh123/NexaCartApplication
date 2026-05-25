@@ -18,11 +18,7 @@ A modern e-commerce application built with React, TypeScript, and Supabase, feat
 
 ## Tech Stack
 
-- **Frontend**: React 19, TypeScript, TailwindCSS
-- **Backend**: Supabase (Database & Auth)
-- **Payment**: Razorpay
-- **State Management**: Zustand
-- **UI Components**: Lucide Icons, Motion
+- 
 
 
 
