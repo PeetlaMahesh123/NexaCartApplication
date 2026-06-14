@@ -49,8 +49,7 @@ cp .env.example .env
 Update `.env` with your credentials:
 
 ```env
-# Gemini AI (for AI features)
-GEMINI_API_KEY="your_gemini_api_key"
+
 
 # Supabase (Database & Auth)
 VITE_SUPABASE_URL="your_supabase_project_url"
